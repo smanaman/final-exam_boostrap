@@ -6,17 +6,17 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+height: 720px;
 }
 .bo{
     /* border: 1px solid black;  */
-    height: 100vh;
+    height: 720px;
     
    
 }
 .main{
     width: 500px;
-    height: auto;
+    height: 720px;
     backdrop-filter: blur(80px);
     border-radius: 20px;
     padding: 20px;
@@ -88,4 +88,24 @@ font-weight: 700;
     color: black;
     font-size: 20px;
     font-weight: 600;
+}
+@media(width <=500px){
+    .main{
+        width: 500px;
+        height: 750px;
+        backdrop-filter: blur(80px);
+        border-radius: 20px;
+        padding: 20px;
+        border: 1px solid rgba(211, 211, 211, 0.733);
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        background-image: url(./100+\ Maple\ Leaf\ and\ Tree\ Backgrounds\,\ Illustrations\,\ Patterns\ \(Free\,\ High-Res\).jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    height: 800px;
+    }
 }
