@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url(./100+\ Maple\ Leaf\ and\ Tree\ Backgrounds\,\ Illustrations\,\ Patterns\ \(Free\,\ High-Res\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.bo{
+    /* border: 1px solid black;  */
+    height: 100vh;
+    
+   
+}
+.main{
+    width: 500px;
+    height: 670px;
+    backdrop-filter: blur(80px);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(211, 211, 211, 0.733);
+}
+.f{
+color: white;
+font-size: 40px;
+font-weight: 700;
+}
+.sub{
+    width: 100%;
+    height: 55px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(253, 250, 250);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* #floatingInput{
+    background-color:transparent;
+    border: 1px solid black;
+}
+#floatingPassword{
+    background-color:transparent;
+    border: 1px solid black;
+
+} */
+.sub_2{
+    width: 100%;
+    height: 55px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(253, 250, 250);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.sub_3{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(253, 250, 250);
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+.input{
+    width: 30%;
+    height: 55px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.range{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.range_2{
+    /* margin-top: -20px; */
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
