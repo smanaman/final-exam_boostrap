@@ -16,7 +16,7 @@ body{
 }
 .main{
     width: 500px;
-    height: 670px;
+    height: auto;
     backdrop-filter: blur(80px);
     border-radius: 20px;
     padding: 20px;
@@ -24,7 +24,7 @@ body{
 }
 .f{
 color: white;
-font-size: 40px;
+font-size: 30px;
 font-weight: 700;
 }
 .sub{
